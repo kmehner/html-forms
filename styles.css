@@ -30,3 +30,17 @@ a {
 h1, h2, h3 {
   font-family: 'Arial', sans-serif;
 }
+
+/* https://www.freecodecamp.org/news/css-combinators-to-select-elements/ */
+/* Descendant = every child in a family line */
+/* Child belongs directly to a parent */
+
+/* Descendant combinator */
+article p {
+  color: slategray;
+}
+
+/* Child combinator */
+article > p {
+  margin-left: 20px;
+}

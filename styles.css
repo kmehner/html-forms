@@ -1,0 +1,18 @@
+h2 {
+  color: darkslategray;
+  font-style: italic;
+}
+
+ul {
+  list-style-type: circle; /* Adds a bit of flair to our list */
+}
+
+a {
+  color: teal; /* A soothing, clickable teal for links */
+  text-decoration: none; /* Removes the underline to clean up the appearance */
+}
+
+.special-text {
+  color: darkcyan;
+  font-weight: bold;
+}

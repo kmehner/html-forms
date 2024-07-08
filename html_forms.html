@@ -13,15 +13,26 @@
   <h2>The Form Tag and its Attributes</h2>
 
   <!-- Creating a SUBMIT form to POST data collected from user -->
-  <form>
+
+  </form action="/submit" method="post">
 
     <!-- Username -->
+     <label for="username">Username:</label>
+     <input type="text" id="username" name="username" placeholder="Enter your username" required>
 
     <!-- Password -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password" required>
 
     <!-- Subscribe -->
+    <label for="subscribe">Subscribe to our newsletter:</label>
+    <input type="checkbox" id="subscribe" name="subscribe" value="yes" checked>
 
     <!-- Gender -->
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
 
     <!-- Comments -->
 

@@ -16,3 +16,8 @@ a {
   color: darkcyan;
   font-weight: bold;
 }
+
+#main-heading {
+  color: darkmagenta;
+  font-size: 24px;
+}

@@ -67,22 +67,59 @@
     <button type="submit">Submit</button>
   </form>
 
-  <!-- The Versatile type Attributes -->
+   <!-- FORM new input types -->
+   <h2>New input types in HTML</h2>
    <form>
-    <!-- Full Name -->
+      <!-- User Email -->
+      <label for="user-email">Email:</label>
+      <input type="email" id="user-email" name="user-email" placeholder="Enter your email" required>
 
-    <!-- Age -->
+      <!-- Quantity -->
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" step="2" min="1" max="10">
 
-    <!-- Newsletter -->
+      <!-- Date -->
+      <label for="birthdate">Birthdate:</label>
+      <input type="date" id="birthdate" name="birthdate">
 
-    <!-- Preferred Contact Method -->
+      <!-- Buttons -->
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
 
-    <!-- Additional Comments -->
-
-    <!-- Buttons -->
    </form>
 
+   <!-- Versatile type attributes -->
+   <form>
+      <!-- Full Name -->
+       <label for="name">Full Name:</label>
+       <input type="text" id="name" placeholder="ie. John Doe" >
 
+      <!-- Age -->
+       <label for="age">Age:</label>
+       <input type="number" id="age" name="age" min="18" max="99" step="1">
+
+      <!-- Newsletter -->
+       <label for="newsletter">Subscribe to Newsletter:</label>
+       <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+
+      <!-- Preferred Contact Method - name='contact-method'-->
+       <label>Preferred Contact Method:</label>
+
+       <input type="radio" id="email" name="contact-method" value="email">
+       <label for="email">Email</label>
+
+       <input type="radio" id="phone" name="contact-method" value="phone" >
+       <label>Phone</label>
+
+      <!-- Additional Comments -->
+       <label for="comments">Additional Comments:</label>
+       <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Share your thoughts pls" autocorrect="on">Share your thoughts</textarea>
+
+      <!-- Buttons -->
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+
+   </form>
   
 </body>
 </html>
